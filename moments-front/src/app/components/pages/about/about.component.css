@@ -1,0 +1,23 @@
+.about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+
+h2, p {
+  margin-bottom: 1em;
+}
+
+.about a {
+  background-color: #dec02bdc;
+  padding: 10px;
+  margin-top: 1em;
+  font-size: 1.2em;
+  border-radius: 25px;
+}
+
+.about a:hover {
+  color: #ffffff;
+}

@@ -1,0 +1,191 @@
+.moment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+h1 {
+  margin-bottom: 1em;
+}
+
+img {
+  max-width: 500px;
+  margin-bottom: 0 auto 1em;
+}
+
+.about-moment,
+.actions {
+  padding-bottom: 1em;
+  padding: 1em;
+  width: 100%;
+}
+
+.about-moment {
+  margin-bottom: 1em;
+  border-bottom: 1px solid #ccc;
+}
+
+.actions {
+  background-color: rgba(47, 47, 47, 0.445);
+  border: 1px solid #7e7e7e;
+  border-radius: 5px;
+}
+
+.edit-btn,
+.remove-btn {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 0.4em 1em;
+  font-size: 1em;
+  margin: 0 0.5em;
+  cursor: pointer;
+  transition: 0.4s;
+  color: #ccc;
+  background-color: transparent;
+}
+
+button fa-icon,
+a fa-icon {
+  margin-right: 0.2em;
+}
+
+.edit-btn,
+.edit-btn path{
+  border-color: #dec129;
+  color: #dec129;
+}
+
+.edit-btn:hover,
+.edit-btn:hover path{
+ background-color: #dec129;
+  color: #ffffff;
+}
+
+.remove-btn,
+.remove-btn path{
+  border-color: #ccc;
+  color: #ccc;
+}
+
+.remove-btn:hover,
+.remove-btn:hover path{
+ background-color: #ccc;
+  color: #000;
+}
+
+
+/* Form */
+
+form {
+  width: 450px;
+  margin: 0 auto;
+  color: white;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.form-group label {
+  font-weight: bold;
+  font-size: 0.9em;
+  margin-bottom: 0.4em;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 0.6em;
+  color: #000;
+  font-size: 0.8em;
+}
+
+input[type="submit"] {
+  color: #ffffff;
+  background-color: #dec029dc;
+  border: 2px solid transparent;
+  border-radius: 25px;
+  padding: 0.6em 1em;
+  font-weight: bold;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+input[type="submit"]:hover {
+  color: #dec129;
+  border-color: #dec129;
+  background-color: transparent;
+}
+
+.form-group input[type="file"] {
+  color: #b5b5b5;
+}
+
+
+.validation-error p {
+  color: #ff0000;
+  margin-top: 0.4em;
+  border-left: 3px solid #ff0000;
+  padding-left: 0.2em;
+
+  font-size: 0.8em;
+}
+
+/* comments */
+
+.comments {
+  margin-bottom: 1em;
+  margin-top: 1.5em;
+  padding: 1.5em 0;
+  width: 100%;
+}
+
+.comments h3{
+  text-align: left;
+}
+
+.comment-container{
+  text-align: left;
+  border-bottom: 1px solid #cecece;
+  padding: 1em 0;
+}
+
+.comment{
+  font-size: 1em;
+}
+
+.author{
+  font-size: 0.8em;
+}
+
+.comment-form{
+  margin-bottom: 3em;
+}
+
+.comment-form form{
+  margin-top: 1em;
+  text-align: left;
+  max-width: 100%;
+  margin-left: 0;
+}
+
+.author span{
+  font-weight: bold;
+}
+
+/* noComments */
+.noComments{
+  margin-top: 1em;
+  font-size: 1.3em;
+  border-bottom: 1px solid #cecece;
+}
+
+.noComments p{
+  margin-bottom: 1.2em;
+}
